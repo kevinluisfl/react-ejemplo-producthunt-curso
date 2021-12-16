@@ -1,0 +1,18 @@
+{
+    "presets": [
+        "next/babel",
+        "@emotion/babel-preset-css-prop"
+        ,"@babel/preset-env",
+        "@babel/preset-react"
+    ],
+    "plugins":[
+        [
+            "@emotion"
+        ]
+    ]
+}
+
+
+// npm install @babel/core --save
+// npm install --save-dev @babel/preset-env @babel/preset-react
+// npm install --save-dev @emotion/react
